@@ -1,0 +1,183 @@
+/** Custom CSS **/
+
+header, footer{
+  background-color: #4ABFE4;
+}
+
+header > div > .row > div{
+  padding: 0px;
+}
+
+.acme{
+  margin-bottom: 5px;
+}
+
+.acme-logo, .acme-brand{
+  vertical-align: middle;
+}
+
+.acme div{
+  margin: 5px 0;
+  padding: 0px;
+}
+
+.acme-logo img{
+  margin: 0px;
+  width: 95px;
+}
+
+.acme-brand *{
+  margin: 0px;
+}
+
+.acme-brand h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 68px;
+  color: lightgrey;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+  font-weight: 600;
+}
+
+.acme-brand h6{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  color: white;
+  text-transform: lowercase;
+}
+
+main h1{
+  color: #4ABFE4;
+  font-weight: 300;
+  font-size: xx-large !important;
+  margin-top: 80px;
+}
+
+.price{
+  color: #ABABAC;
+}
+
+table {
+  margin: 5px;
+}
+
+table td, table th{
+  padding: 8px 0 !important;
+}
+
+#products>thead>tr>th:last-child{
+    border-bottom: none;
+}
+
+#products>tbody>tr>td{
+  vertical-align: inherit !important;
+  border-top: none !important;
+  /*padding: 0px 8px;*/
+}
+
+input[type=number]{
+  display:inline-table;
+  vertical-align: middle;
+  direction: rtl;
+  width: 35%;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.btns{
+  display:inline-table;
+  vertical-align: middle;
+}
+
+#products>tbody>tr>td:last-child>span{
+  color: #4ABFE4;
+  margin: 3px auto auto 5px;
+}
+
+.btn-up, .btn-down{
+  font-size: 8px;
+  padding: 2px 4px;
+  background-color: #4ABFE4;
+  margin: 1px;
+  color: white;
+
+}
+
+.btn-up{
+  vertical-align: bottom;
+}
+
+.btn-down{
+  vertical-align: top;
+}
+
+.glyphicon-trash:hover{
+  cursor: pointer;
+}
+
+#sum>tbody>tr>td, #taxes>tbody>tr>td{
+  border-top: none;
+}
+
+#sum{
+  margin-top: 30px;
+}
+
+#purchase{
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+#purchase button{
+  color: white;
+  background-color: #4ABFE4;
+}
+
+footer{
+  margin-top: 80px;
+}
+
+#footer-text{
+  margin:20px auto;
+  color: lightgray;
+  font-weight: normal;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+#modal-ok .modal-content{
+  background-image: url('../img/logo-blur.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 30% ;
+  background-size: 400px;
+}
+
+#modal-ok h6{
+  color: black;
+}
+
+#modal-text h5{
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+main .row .row:last-child{
+  margin-top: 35px;
+  display: none;
+}
+
+@media(max-width:450px){
+  footer span{
+    display: block;
+  }
+}
