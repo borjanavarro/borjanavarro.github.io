@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" type="image/png" href="images/ferris-wheel.png"/>
+	<title>Antonio Lucas poem</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<!-- Font -->
+	<link href='//fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
+	<style type="text/css" media="screen">
+		p,h1,h4 {
+			font-family: 'Special Elite', serif;
+		}
+		#typed-strings p{
+			line-height: 20px;
+		}
+		img{
+		    -ms-transform: rotate(7deg); /* IE 9 */
+		    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+		    transform: rotate(9deg);
+		    padding: 10px !important;
+		    margin-bottom: -60px;
+		}
+		footer{
+			margin-top: 60px;
+		}
+	</style>
+</head>
+<body style="background-image: url(images/concrete_seamless.png)">
+	<div class="container">
+		<div class="col-lg-4 col-lg-offset-5 col-sm-7 col-sm-offset-2 col-xs-10 col-xs-offset-2" style="margin-top: 70px;">
+			<div class="row">
+				<img src="images/galo-2.jpg" alt="Galo Tobias" class="img-thumbnail">
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-lg-offset-4" style="height:400px;">
+			<div class="row">
+				<h1>Los desengaños</h1>
+				<br/>
+				<div id="text"></div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="col-lg-12">
+			<p class="text-center" style="font-size: 12px;">&copy; design & code by <a href="http://www.borjanavarro.me">Borja Navarro</a> · 2015</p>
+			<p class="text-center" style="font-size: 12px;">&copy; image by <a href="http://websta.me/n/galotobias">Galo Tobias</a> · 2015</p>
+		</div>
+	</footer>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Typed -->
+	<script src="js/typed.js"></script>
+	<script>
+		$(document).ready(function(){
+		 	$("#text").typed({
+				strings: ['<p>Una vez solo es la vida.</p>' +
+									'<p>Apúrala con calma, con hambre, enajenado,</p>' +
+									'<p>distante a la idiotez, altivo si es preciso,</p>' +
+									'<p>Abraza la penumbra, no huyas la tristeza,</p>' +
+									'<p>Sé fiel a la lujuria, no temas la renuncia.</p>' +
+									'<p>Apúrala en silencio,</p>' +
+									'<p>jamás con abandono.</p>' +
+									'<p>Qué nunca sea el recuerdo de un nunca pudo ser.</p>' +
+									'<h4 class="col-xs-8 col-xs-offset-8 col-sm-6 col-sm-offset-6">Antonio Lucas</h4>', ''],
+		    	typeSpeed: 50,
+		    	loop: false,
+        	contentType: 'html',
+        	showCursor: false
+		  	});
+		});
+	</script>
+</body>
+</html>
