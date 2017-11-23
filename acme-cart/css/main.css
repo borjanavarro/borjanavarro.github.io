@@ -1,5 +1,9 @@
 /** Custom CSS **/
 
+body {
+  background-color: #4ABFE4;
+}
+
 header, footer{
   background-color: #4ABFE4;
 }
@@ -8,26 +12,21 @@ header > div > .row > div{
   padding: 0px;
 }
 
-.acme{
-  margin-bottom: 5px;
-}
-
-.acme-logo, .acme-brand{
+.acme-logo{
+  width: 95px;
+  display: inline;
   vertical-align: middle;
 }
 
-.acme div{
-  margin: 5px 0;
-  padding: 0px;
-}
-
-.acme-logo img{
-  margin: 0px;
-  width: 95px;
+.acme-brand{
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .acme-brand *{
   margin: 0px;
+  display: block;
 }
 
 .acme-brand h1{
@@ -44,6 +43,11 @@ header > div > .row > div{
   font-size: 17px;
   color: white;
   text-transform: lowercase;
+}
+
+main{
+  background-color: white;
+  padding-bottom: 80px;
 }
 
 main h1{
@@ -135,10 +139,6 @@ input[type=number]::-webkit-inner-spin-button {
   background-color: #4ABFE4;
 }
 
-footer{
-  margin-top: 80px;
-}
-
 #footer-text{
   margin:20px auto;
   color: lightgray;
@@ -151,6 +151,8 @@ footer{
 .modal-header {
     border-bottom: none;
 }
+
+
 
 #modal-ok .modal-content{
   background-image: url('../img/logo-blur.png');
@@ -179,5 +181,9 @@ main .row .row:last-child{
 @media(max-width:450px){
   footer span{
     display: block;
+  }
+  main{
+    padding-left: 10px;
+    padding-right:10px;
   }
 }

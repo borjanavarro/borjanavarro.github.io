@@ -11,6 +11,9 @@
 	<link href='//fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 
 	<style type="text/css" media="screen">
+		body{
+			background-image: url(images/concrete_seamless.png);
+		}
 		p,h1,h4 {
 			font-family: 'Special Elite', serif;
 		}
@@ -27,17 +30,25 @@
 		footer{
 			margin-top: 60px;
 		}
+		#poem{
+			height:400px;
+		}
+		@media (max-width:1000px){
+			#poem{
+				height:620px;
+			}
+		}
 	</style>
 </head>
-<body style="background-image: url(images/concrete_seamless.png)">
+<body>
 	<div class="container">
-		<div class="col-lg-4 col-lg-offset-5 col-sm-7 col-sm-offset-2 col-xs-10 col-xs-offset-2" style="margin-top: 70px;">
+		<div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-1" style="margin-top: 70px;">
 			<div class="row">
 				<img src="images/galo-2.jpg" alt="Galo Tobias" class="img-thumbnail">
 			</div>
 		</div>
 
-		<div class="col-lg-4 col-lg-offset-4" style="height:400px;">
+		<div class="col-sm-4 col-sm-offset-4 col-xs-8 col-xs-offset-2" id="poem">
 			<div class="row">
 				<h1>Los desengaños</h1>
 				<br/>
