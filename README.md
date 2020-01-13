@@ -1,1 +1,1 @@
-# Some practise exercise in HTML, CSS and JS
+# Some practice exercise in HTML, CSS and JS
