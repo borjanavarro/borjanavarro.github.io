@@ -1,0 +1,108 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #0000009e;
+    font-size: 36px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background-color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator {
+    height: 450px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.calculator > .display {
+    background-color: #2a3244;
+    display: flex;
+    padding: 0 6px;
+    height: 30%;
+}
+
+.calculator > .display > .output {
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    font-size: 2em;
+}
+
+.calculator > .buttons {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator > .buttons > .row {
+    flex-grow: 1;
+    display: flex;
+}
+
+.calculator > .buttons > .row > .btn-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    width: 25%;
+}
+
+.calculator > .buttons > .row > .btn-container:last-child {
+    border-right: none;
+}
+
+.calculator > .buttons > .row:last-child > .btn-container {
+    border-bottom: none;
+}
+
+.calculator > .buttons > .row > .btn-container.double {
+    width: 50%;
+}
+
+.calculator > .buttons > .row > .btn-container > .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    border: 2px solid #dddddd;
+    background-color: #dddddd;
+}
+
+.calculator > .buttons > .row > .btn-container > .button:hover {
+    cursor: pointer;
+}
+
+.calculator > .buttons > .row > .btn-container > .button:active {
+    border: 2px solid grey;
+    background-color: #bbb;
+
+}
+
+.calculator > .buttons > .row > .btn-container > .button.orange {
+    background-color: orange;
+    border: 2px solid orange;
+    color: white;
+}
+
+.calculator > .buttons > .row > .btn-container > .button.orange:active {
+    background-color: #d08600;
+    border: 2px solid #8e5f09;
+    color: white;
+}
